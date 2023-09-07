@@ -9,7 +9,7 @@ circleTypeTop.radius(50).dir(-1);
 circleTypeBottom.radius(50).dir(-1);
 
 
-// je suis utiluse Slick Slider cette une 
+// je suis utiluse Slick Slider cette un plugin de curseur jQuery riche en fonctionnalités pour créer des carrousels 
 
 
     $('.slider').slick({
