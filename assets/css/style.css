@@ -13,6 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     /* position: relative; */
 }
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -22,7 +23,7 @@ body {
 
 }
 
-/* header css  */
+/* ===================================header css============================================  */
 .first-section {
     background-color: #0f0f0f;
     width: 100%;
@@ -187,9 +188,9 @@ p {
     height: 40px;
 }
 
-/* Welcome css */
+/*============================================ Welcome css================================ */
 .welcome {
-    padding: 0.5rem 7%;
+    /* padding: 0.5rem 7%; */
     background: #ffffff;
     /* margin-top: 10%; */
 }
@@ -211,6 +212,7 @@ p {
     justify-content: center;
     align-items: center;
     padding-bottom: 10%;
+   
 }
 
 .inner-content-welcome {
@@ -274,6 +276,7 @@ p {
     transition: 0.5s;
     border-radius: 10px;
     border: none;
+    
 
 }
 
@@ -283,10 +286,133 @@ p {
     border: none;
 }
 
-/* hello css */
+/* ============================================hey========================================== */
+.hey {
+    padding: 2rem 6%;
+    background-color: #000000;
+
+}
+
+.hey .first-hey {
+    padding: 0.5rem 10%;
+    /* background-color: #8e8b8b; */
+}
+
+.hey .first-hey h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-shadow: #DB3D4C 20px 40px;
+
+}
+
+
+
+.slick-slider {
+    width: 100%;
+}
+
+.slick-slider button {
+    position: absolute;
+
+    outline: "none";
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: rgba(103, 101, 97, 0);
+    color: rgba(184, 98, 98, 0);
+    z-index: 99;
+}
+
+.slick-slider .slick-prev {
+    left: -30px;
+    font-size: 0;
+}
+
+.slick-slider .slick-prev::before {
+    content: '<';
+    line-height: 1;
+    font-size: 25px;
+}
+
+
+
+.slick-slider .slick-next {
+    right: -30px;
+    font-size: 0;
+}
+
+.slick-slider .slick-next::after {
+    content: '>';
+    line-height: 1;
+    font-size: 25px;
+}
+
+
+
+.slick-dots {
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding: 1px;
+    background-color: #ccc;
+    margin: 10px 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slick-dots button {
+    display: none;
+}
+
+.slick-dots li.slick-active {
+    background:#DB3D4C;
+}
+
+.slick-slider img {
+    width: 80%;
+
+    height: 250px;
+}
+
+
+
+.slick-slide {
+    padding: 40px 0px;
+    position: relative;
+    height: auto !important;
+    opacity: 0.5;
+    transition: all 500ms ease;
+}
+
+.slick-current {
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.second-hey .subtitle-art3 {
+text-align: center;
+}
+.second-hey .subtitle-art3> p {
+    font-size: larger;
+    color: #DB3D4C;
+}
+.second-hey .subtitle-art3>span {
+    font-size:10px;
+    color: #ffffff;
+}
+/* ============================================hello css ===================================*/
 
 .hello {
-    padding: 0.5rem 7%;
+    padding: 3rem 7%;
     background-color: #EEEDED;
     margin-left: 40px;
     margin-right: 40px;
